@@ -17,7 +17,9 @@ $ rails i18n:js:setup
 $ rails i18n:js:export
 ```
 
-```config/i18n-js.yml
+config/i18n-js.yml:
+
+```yml
 translations:
   - file: 'app/assets/javascripts/i18n/translations.js'
     only: '*'
