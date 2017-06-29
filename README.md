@@ -1,4 +1,4 @@
-# Notes of Rails for me.
+# Rails Notes
 
 ## i18n-js
 
