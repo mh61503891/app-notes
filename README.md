@@ -1,8 +1,8 @@
 # Rails Notes
 
+## RubyGems
 
-
-## i18n-js
+### i18n-js
 
 * GitHub: https://github.com/fnando/i18n-js
 * Railsのi18nの訳文ファイルをJavaScriptで使用する場合に便利なgemです。
@@ -26,3 +26,12 @@ translations:
   - file: 'app/assets/javascripts/i18n/translations.js'
     only: '*'
 ```
+
+## JavaScript
+
+### bootstrap-validator
+
+* Demo: http://1000hz.github.io/bootstrap-validator/
+* GitHub: https://github.com/1000hz/bootstrap-validator
+* Bootstrap 3のフォームのバリデータをHTMLのタグ属性で記述できる。
+* JavaScriptのAPIはjQueryベース。Vueとかで使うのはきついだろうか？
