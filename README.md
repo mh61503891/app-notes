@@ -12,6 +12,8 @@
     * ポイント: JavaScriptファーストにする場合はRailsをAPIモードにしてユーザ向けのメッセージを排除できるか？
 * Link: http://d.hatena.ne.jp/a_kimura/20120221/1329825267
 
+commands:
+
 ```bash
 $ rails i18n:js:setup
 $ rails i18n:js:export
