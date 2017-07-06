@@ -1,5 +1,21 @@
 # Rails Notes
 
+## Tips
+
+### クラスが自動で読み込まれるパスの追加
+
+```ruby
+# config/application.rb
+config.autoload_paths << Rails.root.join('app', 'services')
+```
+
+```
+# showing autoload_paths
+$ bin/rails r 'puts ActiveSupport::Dependencies.autoload_paths'
+```
+
+* Link: http://qiita.com/necojackarc/items/fb76352dbea5bdd83366
+
 ## RubyGems
 
 ### i18n-js
