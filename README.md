@@ -15,6 +15,8 @@ $ bin/rails r 'puts ActiveSupport::Dependencies.autoload_paths'
 ```
 
 * Link: http://qiita.com/necojackarc/items/fb76352dbea5bdd83366
+* Link: http://qiita.com/joooee0000/items/369fd4676cd9dfb1f6eb
+* Link: http://qiita.com/kbaba1001/items/a1c7db5d97bdff581d7b
 
 ## RubyGems
 
