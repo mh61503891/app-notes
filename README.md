@@ -18,6 +18,10 @@ $ bin/rails r 'puts ActiveSupport::Dependencies.autoload_paths'
 * Link: http://qiita.com/joooee0000/items/369fd4676cd9dfb1f6eb
 * Link: http://qiita.com/kbaba1001/items/a1c7db5d97bdff581d7b
 
+### Exceptions
+
+* Link: [rails save! create! update!のバリデーション例外を捕捉する](http://qiita.com/metheglin/items/db595d972df99b3849c2)
+
 ## RubyGems
 
 ### i18n-js
