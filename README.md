@@ -1,4 +1,26 @@
-# Rails Notes
+# App Notes
+
+## Git
+
+### ベアリポジトリの作成
+
+リモートサーバにベアリポジトリを作成する。
+
+```bash
+$ ssh server
+$ git init --bare /home/git/example.git
+$ echo 'Sunaba Client' > /home/git/example.git/description
+$ ln -s /usr/share/git-core/contrib/hooks/post-receive-email /home/git/example.git/hooks/post-receive
+```
+
+ローカルサーバにクローンする。
+
+```bash
+$ git clone server:example.git
+$ cd example
+$ git config user.name "User Name"
+$ git config user.email "user@example.net"
+```
 
 ## Tips
 
