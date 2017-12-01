@@ -9,7 +9,7 @@
 ```bash
 $ ssh server
 $ git init --bare /home/git/example.git
-$ echo 'Sunaba Client' > /home/git/example.git/description
+$ echo 'Example' > /home/git/example.git/description
 $ ln -s /usr/share/git-core/contrib/hooks/post-receive-email /home/git/example.git/hooks/post-receive
 ```
 
