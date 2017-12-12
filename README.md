@@ -11,6 +11,10 @@ $ ssh server
 $ git init --bare /home/git/example.git
 $ echo 'Example' > /home/git/example.git/description
 $ ln -s /usr/share/git-core/contrib/hooks/post-receive-email /home/git/example.git/hooks/post-receive
+$ cd /home/git/example.git
+$ git config hooks.envelopesender "user@example.net"
+$ git config hooks.mailinglist "user@example.net"
+$ git config hooks.announcelist "user@example.net"
 ```
 
 ローカルサーバにクローンする。
@@ -21,6 +25,29 @@ $ cd example
 $ git config user.name "User Name"
 $ git config user.email "user@example.net"
 ```
+## パッケージマネージャ
+
+|            | yarn              | anyenv        |
+| ---------- | ----------------- | ------------- |
+| 本体のアップグレード | brew upgrade yarn | anyenv update |
+
+## アップデート
+
+### Node.js
+
+```bash
+$ anyanv update
+$ ndenv install --list
+$ ndenv install v8.9.1
+$ ndenv rehash
+$ ndenv global v8.9.1
+```
+
+## LTS
+
+### Node.js
+
+- [Node.js Foundation Release Working Group Release schedule](https://github.com/nodejs/Release)
 
 ## Tips
 
