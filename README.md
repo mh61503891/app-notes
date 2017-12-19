@@ -1,5 +1,17 @@
 # App Notes
 
+## anyenv
+
+### Rubyのアップデート
+
+```bash
+$ anyenv update
+$ rbenv install --list
+$ rbenv install 2.4.3
+$ rbenv rehash
+$ rbenv global 2.4.3
+```
+
 ## Git
 
 ### ベアリポジトリの作成
