@@ -71,6 +71,21 @@ $ ndenv global v8.9.1
 Rails.root.join('db/data.csv')
 ```
 
+## Tasks
+
+### 独自タスクの定義
+
+```ruby
+namespace :foo do
+  namespace :bar do
+    desc 'Bazz'
+    task :bazz => :environment do |task, args|
+    # bazz
+    end
+  end
+end
+```
+
 ## Tips
 
 ### クラスが自動で読み込まれるパスの追加
