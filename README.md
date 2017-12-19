@@ -61,6 +61,16 @@ $ ndenv global v8.9.1
 
 - [Node.js Foundation Release Working Group Release schedule](https://github.com/nodejs/Release)
 
+# Ruby on Rails
+
+## Path
+
+### Pathの取得
+
+```ruby
+Rails.root.join('db/data.csv')
+```
+
 ## Tips
 
 ### クラスが自動で読み込まれるパスの追加
